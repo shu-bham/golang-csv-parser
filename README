@@ -1,0 +1,8 @@
+This project takes multiple csv files as its source and
+outputs a single csv file that has all the columns from the source csv files
+
+Usage:
+    go run main.go [filepaths]
+
+example: 
+    go run main.go roster1.csv roster2.csv roster3.csv roster4.csv
